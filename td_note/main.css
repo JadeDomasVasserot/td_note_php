@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://media.istockphoto.com/vectors/abstract-geometry-in-retro-colors-diamond-shapes-geo-pattern-vector-id1147798264?k=6&m=1147798264&s=170667a&w=0&h=ENuFAJEtI_tn9G9oA61CWcBVVySCHgyxs5FfQxTNVtM=)fixed;
+}
+main {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px rgb(43, 43, 43) solid;
+}
+select {
+    margin-bottom: 10px;
+}
+.err {
+    color: rgb(158, 10, 10);
+}
+#trap {
+    margin-bottom: 20px;
+}
+#los {
+    padding : 20px;
+}
+.text {
+    margin-top: 10px;
+}
+label{
+    color : #388188;
+    font-weight: bold;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #388188;
+    color: white;
+    border-radius: 5px;
+}
+button:last-child {
+    margin-left: 5px;
+}
